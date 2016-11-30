@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nguye.chekbot.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:gravity="center"
+        android:text="Tui Hương Thủy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/rd_gay"
+        android:text="Gay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:id="@+id/rd_less"
+        android:text="Less"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb_mautim"
+        android:text="Yêu màu tím"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_mahong"
+        android:text="Thích màu Xanh Dương"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_noitam"
+        android:text="Sống nội tâm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/cb_mauca"
+        android:text="Hay Khóc Thầm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/sn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <ImageButton
+        android:id="@+id/ib"
+        android:layout_gravity="center"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
